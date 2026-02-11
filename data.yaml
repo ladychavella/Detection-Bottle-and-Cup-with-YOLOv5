@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['bottle', 'cup']
+
+roboflow:
+  workspace: skripsi-umyk5
+  project: technicaltest
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/skripsi-umyk5/technicaltest/dataset/3
